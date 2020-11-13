@@ -1,2 +1,78 @@
 {
+  "window.zoomLevel": 1,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.settings.editor": "json",
+  "workbench.settings.openDefaultSettings": true,
+  "workbench.settings.useSplitJSON": true,
+  "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.8/bin/python3",
+  "python.formatting.provider": "autopep8",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.tabSize": 4,
+  "editor.fontSize": 16,
+  "editor.fontWeight": "400",
+  "editor.fontFamily": "Hack", //"Source Code Pro",
+  "debug.console.fontSize": 16,
+  "debug.console.fontFamily": "default",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "500",
+  "code-runner.executorMap": {
+    "python": "$pythonPath -u $fullFileName"
+  },
+  "code-runner.showExecutionMessage": false,
+  "code-runner.clearPreviousOutput": true,
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideTabs": false,
+  "editor.quickSuggestionsDelay": 100,
+  "files.insertFinalNewline": true,
+  "editor.wordWrap": "off",
+  "editor.wordWrapColumn": 200,
+  "terminal.integrated.shell.osx": "/bin/bash",
+  "editor.largeFileOptimizations": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.jediEnabled": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "java.semanticHighlighting.enabled": true,
+  "editor.cursorWidth": 0,
+  "editor.cursorStyle": "line",
+  "python.languageServer": "Pylance",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "django-html": "html"
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<esc>"]
+    }
+  ],
+  "java.refactor.renameFromFileExplorer": "autoApply",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  },
+  "[xsl]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "markdown-preview-enhanced.liveUpdate": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "workbench.colorTheme": "Predawn",
+  "kite.showWelcomeNotificationOnStartup": false,
+  "peacock.affectedSettings": ["activityBar", "statusBar", "titleBar"]
 }
